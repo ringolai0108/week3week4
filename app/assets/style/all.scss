@@ -1,23 +1,14 @@
+@import 'reset';
+@import 'hfzone';
+@import 'qap';
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&family=Roboto&display=swap');
+
+
 $color: #00cc99;
 
-.header {
-  height: 200px;
-  background-color: #00cc99;
-}
 
-.footer {
-  height: 200px;
-  background-color: #00cc99;
-}
 
-.box {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  display: flex;
-  transition: all 0.5s;
-  &:hover {
-    width: 200px;
-    background-color: $color;
-  }
-}
+
+
+
+
