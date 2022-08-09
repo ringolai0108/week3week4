@@ -90,6 +90,9 @@ table {
     .header ul li {
       font-size: 20px;
       line-height: 30px; }
+      .header ul li a {
+        text-decoration: none;
+        color: #fff; }
 
 .footer {
   height: 353px;
@@ -233,7 +236,7 @@ table {
     font-size: 48px;
     line-height: 72px;
     border-left: 8px solid #9F1213;
-    padding-right: 16px;
+    padding-left: 16px;
     font-weight: 700; }
   .container h2 {
     font-size: 24px;
