@@ -1,0 +1,252 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&family=Roboto&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.mb-8 {
+  margin-bottom: 8px; }
+
+.mt-32 {
+  margin-top: 32px; }
+
+.mt-24 {
+  margin-top: 24px; }
+
+.ml-64 {
+  margin-left: 64px; }
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 80px;
+  background-color: #aa0601;
+  color: #fff;
+  font-family: 'Noto Sans TC', sans-serif;
+  padding-left: 16.25%;
+  padding-right: 16.25%; }
+  .header .logoimg {
+    width: 80px;
+    height: 48.57px; }
+  .header ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .header ul li {
+      font-size: 20px;
+      line-height: 30px; }
+
+.footer {
+  height: 353px;
+  background-color: #aa0601;
+  color: #fff;
+  font-family: 'Noto Sans TC', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 16.25%;
+  padding-right: 16.25%; }
+  .footer .f-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 48px; }
+    .footer .f-menu .mlist {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .footer .f-menu .mlist li {
+        margin-right: 48px; }
+        .footer .f-menu .mlist li a {
+          text-decoration: none;
+          color: #fff;
+          font-size: 16px;
+          line-height: 24px; }
+    .footer .f-menu .iconlist {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .footer .f-menu .iconlist li {
+        margin-left: 32px; }
+        .footer .f-menu .iconlist li img {
+          width: 48px;
+          height: 48px; }
+  .footer .telmail {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    color: #fff;
+    margin-top: 24px;
+    margin-bottom: 32px; }
+    .footer .telmail li {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-box-pack: start;
+          -ms-flex-pack: start;
+              justify-content: flex-start;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .footer .telmail li span {
+        font-size: 36px;
+        margin-right: 22px; }
+      .footer .telmail li a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 36px;
+        line-height: 54px; }
+  .footer .under {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-top: 1px solid #fff;
+    padding: 32px 0; }
+    .footer .under .copyright {
+      font-size: 16px;
+      line-height: 21px; }
+    .footer .under .policy {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between; }
+      .footer .under .policy li {
+        font-size: 14px;
+        line-height: 21px;
+        margin-right: 48px; }
+
+@media (max-width: 768px) {
+  .header {
+    padding-left: 4.68%;
+    padding-right: 4.68%; } }
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 16.25%;
+  padding-right: 16.25%;
+  padding-top: 96px;
+  padding-bottom: 80px;
+  font-family: 'Noto Sans TC', sans-serif; }
+  .container h1 {
+    font-size: 48px;
+    line-height: 72px;
+    border-left: 8px solid #9F1213;
+    padding-right: 16px;
+    font-weight: 700; }
+  .container h2 {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700; }
+  .container li h3 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    margin-bottom: 8px; }
+  .container li p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400; }
+
+/*# sourceMappingURL=all.css.map */
