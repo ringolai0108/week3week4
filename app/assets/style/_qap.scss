@@ -1,42 +1,87 @@
-.container{
-    display: flex;
-    flex-direction: column;
-    padding-left: 16.25%;
-    padding-right: 16.25%;
-    padding-top: 96px;
-    padding-bottom: 80px;
-    font-family: 'Noto Sans TC', sans-serif;
-    h1{
-      font-size: 48px;
-      line-height: 72px;
-      border-left: 8px solid #9F1213;
-      padding-left: 16px;
-      font-weight: 700;
+.qazone{
+    .qacontent{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      // margin-top: 96px;
+      margin-bottom: 48px;
+      font-family: 'Noto Sans TC', sans-serif;
+          // h1{
+          //   font-size: 48px;
+          //   line-height: 72px;
+          //   border-left: 8px solid #9F1213;
+          //   padding-left: 16px;
+          //   font-weight: 700;
+          //   }
   
-    }
-  
-    h2{
-      font-size: 24px;
-      line-height: 36px;
-      font-weight: 700;
-  
-    }
-    li{
-      h3{
-        font-size: 20px;
-        line-height: 30px;
-        font-weight: 700;
-        margin-bottom: 8px;
-  
-      }
-      p{
-        font-size: 16px;
-        line-height: 24px;
-        font-weight: 400;
-  
-      }
-    }
-  
-  
-  }
+          h2{
+            font-size: 24px;
+            line-height: 36px;
+            font-weight: 700;
+            margin-top: 32px;
+            margin-bottom: 24px;
+            }
+         li{
+          margin-bottom: 32px;
+          h3{
+            font-size: 20px;
+            line-height: 30px;
+            font-weight: 700;
+            margin-bottom: 8px;
+          }
+          p{
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 400;
+      
+          } }
+  }}
+
+
+  @media (max-width: 992px) { 
+    .qazone .container {
+      padding-left: 36px;
+      padding-right: 36px;
+      } 
+
+
+   }
+
+
+   @media (max-width: 767px) {
+
+    .qazone .container {
+      padding-left: 13px;
+      padding-right: 14px;
+      width: 100%;
+      } 
+
+
+
+    .qazone{
+      .qacontent{
+        // margin-top: 40px;
+        margin-bottom: 40px;
+            // h1{
+            //   font-size: 24px;
+            //   line-height: 36px;
+
+            //   }
+    
+            h2{
+              margin-top: 24px;
+
+              }
+           li{
+            margin-bottom: 24px;
+            h3{
+
+            }
+            p{
+
+        
+            } }
+    }}
+
+   }
   
